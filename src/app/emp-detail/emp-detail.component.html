@@ -1,0 +1,37 @@
+<app-home></app-home>
+
+<div style="border: 2px solid black;background-color:lightgrey;width:1130px; padding-top: 5px; padding-bottom: 10px; margin-left: 180px;margin-right: auto;padding: 10px;">
+  <span  style="position:relative;left:500px;font-style:italic">
+    <p style="font-size: 20px;">Detail of </p>
+    <h3 style="font-weight: 50px;font-size:30px;color:brown;text-shadow: 0 0 3px yellow, 0 0 10px cyan, 0 0 30px red;">{{employeess.employee_name}}</h3>
+  </span>
+</div>
+
+<div class="table-responsive table-container">  
+  <table class="table" style="width: 1200px; margin-left: auto;margin-right: auto;">  
+    <thead>  
+      <tr>  
+        <th>ID</th>  
+        <th>EMPLOYEE NAME</th>  
+        <th>EMAIL ID</th>   
+        <th>EMPLOYEE AGE</th>
+        <th>SALARY</th>
+        <th style="position:relative;left:80px">ACTION</th>
+      </tr>  
+    </thead>  
+    <tbody>
+      <tr>
+        <td>{{employeess.id}}</td>
+        <td style="position:relative;left:20px">{{employeess.employee_name}}</td>
+        <td style="position:relative;right:20px">{{employeess.employee_email}}</td>
+        <td style="position:relative;left:30px">{{employeess.employee_age}}</td>
+        <td style="position:relative;left:5px">{{employeess.employee_salary}}</td>
+        <td style="position:relative;right:40px">
+          <button (click)="deleteEmp(employeess)" routerLink="/list-emp" class="btn1"> Delete</button>  
+          <button (click)="editEmp(employeess)" class="btn2"> Edit</button> 
+          <button routerLink="/list-emp" class="btn3"> Employees List</button> 
+        </td>
+    </tbody> 
+  </table>  
+</div>  
+   

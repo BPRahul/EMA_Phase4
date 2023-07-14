@@ -1,0 +1,28 @@
+.page-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 8vh; /* Adjust the top margin to center vertically */ 
+    padding: 10px;
+    text-align: center;
+    background:lightgray;
+    border-radius: 10px; 
+    border:2px solid gray;
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+  
+  .container1 {
+    text-align: center;
+  }
+  
+  .jumbotron {
+    display: inline-block;
+    padding: 20px;
+  }
+
+label{
+    font-weight: bolder;
+}

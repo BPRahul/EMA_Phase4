@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background:lightcyan;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid skyblue;
+  }
+  
+  .header {
+    text-decoration: none;
+    background: -webkit-linear-gradient(45deg, #09009f, red 90%);
+    transition: background 0.3s ease;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+  
+  .navbar:hover{
+    background: -webkit-linear-gradient(45deg,paleturquoise,lightsteelblue 80%);
+  }
+  .page-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 8vh; /* Adjust the top margin to center vertically */ 
+    padding: 10px;
+    text-align: center;
+    background:lightgray;
+    border-radius: 10px; 
+    border:2px solid gray;
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+  
+  .container1 {
+    text-align: center;
+  }
+  
+  .jumbotron {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  
+  
+  

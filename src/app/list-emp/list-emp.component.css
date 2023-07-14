@@ -1,0 +1,17 @@
+.btn1{
+    
+        text-decoration: none;
+        background:deeppink;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        padding: 7px 12px;
+        border-radius: 5px;
+
+}
+.btn1:hover{
+    cursor: pointer;
+    background:rgb(191, 11, 107);
+
+}
+
